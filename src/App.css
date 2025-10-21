@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -36,3 +37,26 @@
     transform: rotate(360deg);
   }
 }
+.dashboard-container {
+  padding: 2rem;
+  color: rgb(234, 98, 98);
+}
+
+.chart-controls {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+.card-dark * {
+  color: white !important;
+}
+
+select, button {
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  margin-left: 0.5rem;
+}
+/* table, th, td {
+  color: white !important;
+} */
